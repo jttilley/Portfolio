@@ -1,3 +1,7 @@
+body {
+    
+}
+
 nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -36,4 +40,15 @@ h1 {
 
 .cr {
     
+}
+
+.contact-form {
+    border: #1da58c;
+    border-style: ridge;
+    padding: 20px;
+    margin: 20px 200px;
+}
+
+footer {
+    text-align: center;
 }
