@@ -2,6 +2,10 @@
     margin-top: 20px;
 }
 
+.contact {
+    padding-right: 100px;
+}
+
 .contact-form {
     border: #1da58c;
     border-style: ridge;

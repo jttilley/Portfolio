@@ -1,8 +1,15 @@
 .aboutPic {
-    width: 100px;
+    width: 200px;
     float: left;
-}
+    margin-right: 20px;
 
+}
+.about {
+    border: #1da58c;
+    border-style: ridge;
+    margin-top: 20px;
+    padding: 10px;
+}
 
 
 @media screen and (min-width: 992px) {
