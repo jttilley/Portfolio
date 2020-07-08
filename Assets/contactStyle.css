@@ -2,14 +2,11 @@
     margin-top: 20px;
 }
 
-.contact {
-    padding-right: 100px;
-}
-
 .contact-form {
     border: #1da58c;
     border-style: ridge;
     padding: 20px;
+    background-color: white;
 }
 
 .aboutPic {
@@ -21,10 +18,7 @@
     .contact-form {
         margin: 20px 0;
     }
-    .contact {
-        padding-right: 0;        
-
-    }
+    
 }
 
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="./9-RPS-example.png" />
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var rps = ['r','p','s'];
+        var rps2 = ['Rock','Paper','Scissors']
+        var choice = "";
+        var win = 0;
+        var lose = 0;
+        var tie = 0;
+        
+        for (i=0; i < 10; i++) {
+            choice = prompt("You have " + (10 - i) + " chances! \nChoose: (r)ock (p)aper (s)cisors");
+            choice = choice.toLowerCase();
+
+            // console.log("choice = " + choice)
+            // console.log(rps.indexOf(choice))
+
+            if (rps.indexOf(choice) > -1) {
+                //check if win or lose
+                var randNum = Math.floor( Math.random() * rps.length);
+                var compChoice = rps[randNum];
+                // console.log("randNum = " + randNum)
+                // console.log("compChoice = " + compChoice);
+                var msg = rps2[rps.indexOf(choice)] + " vs. " + rps2[rps.indexOf(compChoice)];
+
+                if (choice === compChoice) {
+                    tie ++;
+                    alert(msg + " You TIED!\nYou've tied " + tie + " times!")
+                }else if (choice === "s" && compChoice === "p" ||
+                        choice === "p" && compChoice === "r" ||
+                        choice === "r" && compChoice === "s") {
+                    win ++;
+                    alert(msg + " You WON!!\nYou've won " + win + " times!")
+                } else
+                {
+                    lose++;
+                    alert(msg + " You LOST.\nYou've lost " + lose + " times!")
+                }
+            }
+            else {
+                alert("You didn't enter an r p or s!!")
+            }
+        }
+        alert("Wins: " + win + "\nLoses: " + lose + "\nTies: " + tie);
+    </script>
+</body>
+</html>

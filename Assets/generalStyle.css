@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("./IMG_9248\ 2.jpeg");
 }
 
 #navbarNav {
@@ -35,6 +36,11 @@ h1 {
     /* padding-left: 15px; */
 }
 
+/* the contact link */
+.contact {
+    padding-right: 100px;
+}
+
 @media screen and (min-width: 992px) {
     .box {
         display: flex;
@@ -45,6 +51,7 @@ h1 {
 }
 
 @media screen and (max-width: 992px) {
+     /* override for alignment */
     .navbar-nav {
         flex-direction: row;
         justify-content: center;
@@ -57,6 +64,7 @@ h1 {
 }
 
 @media screen and (max-width: 701px) {
+    /* name box */
     .box {
         display: flex;
         justify-content: center;
@@ -64,18 +72,27 @@ h1 {
         margin-left: 0;
     }
 
+    /* all links */
     .ml-auto {
         margin-left: 0;
         width: 100%;
     }
 
+    /* override class margin */
     .nav-link {
         margin-left: 0;
     }
-
+    
+    /* override class for spacing */
     .navbar-nav {
         display: flex;
         justify-content: space-evenly;        
+    }
+    
+    /* contact link */
+    .contact {
+        padding-right: 0;        
+
     }
 }
 
