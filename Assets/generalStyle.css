@@ -28,6 +28,12 @@ body {
     /* padding: 10px; */
 }
 
+hr {
+    width: 100%;
+    border-width: 3px;
+    border-color: #1da58c;
+}
+
 h1 {
     color: white;
     text-align: center;
@@ -35,6 +41,21 @@ h1 {
     padding: 0;
     /* padding-left: 15px; */
 }
+
+.fullsheet {
+    margin-top: 20px;
+    border: #1da58c;
+    border-style: ridge;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    color:#1da58c;
+    text-align: left;
+    background-attachment: fixed;
+}
+
 
 /* the contact link */
 .contact {
@@ -57,10 +78,6 @@ h1 {
         justify-content: center;
         width: 100%;
     }
-}
-
-@media screen and (max-width: 768px) {
-
 }
 
 @media screen and (max-width: 701px) {

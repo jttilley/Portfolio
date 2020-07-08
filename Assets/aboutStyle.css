@@ -5,26 +5,7 @@
 
 }
 .about {
-    border: #1da58c;
-    border-style: ridge;
     margin-top: 20px;
     padding: 10px;
     background-color: white;
-}
-
-
-@media screen and (min-width: 992px) {
-
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 701px) {
-
 }

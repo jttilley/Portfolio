@@ -1,17 +1,12 @@
-.container {
-    margin-top: 20px;
-}
-
-.contact-form {
-    border: #1da58c;
-    border-style: ridge;
-    padding: 20px;
-    background-color: white;
-}
-
 .aboutPic {
     width: 200px;
     float: left;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #1da58c;
+    border-color: #1da58c;
 }
 
 @media screen and (max-width: 701px) {
