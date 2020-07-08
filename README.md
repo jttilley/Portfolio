@@ -15,4 +15,7 @@ All 3 pages would have a navbar with links to the other pages.
 Has a photo and info about me.
 
 ## Contact page
-Has a form to send a message to me. Currently it is not working 
+Has a form to send a message to me. Currently it is not working but has all the pieces
+
+## Portfolio page
+Has multiple buttons but only the Rock Paper Scissors one is working.
