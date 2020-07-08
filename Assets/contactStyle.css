@@ -9,6 +9,7 @@
     border-color: #1da58c;
 }
 
+/* modifications for specific sizings */
 @media screen and (max-width: 701px) {
     .contact-form {
         margin: 20px 0;

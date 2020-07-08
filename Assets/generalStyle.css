@@ -1,10 +1,13 @@
+/* This if for the global stuff for all pages. It contains css for 
+the navigation bar, the footer, and the fullsheet background info */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("./IMG_9248\ 2.jpeg");
 }
 
+/* for the Navigation bar */
 #navbarNav {
-    /* padding-left: 20px; */
     margin: 0;
     padding: 0;
 
@@ -42,6 +45,13 @@ h1 {
     /* padding-left: 15px; */
 }
 
+
+/* the contact link in the nav bar*/
+.contact {
+    padding-right: 100px;
+}
+
+/* full sheet background */
 .fullsheet {
     margin-top: 20px;
     border: #1da58c;
@@ -50,18 +60,19 @@ h1 {
     background-color: white;
 }
 
+/* title for pages */
 h2 {
     color:#1da58c;
     text-align: left;
     background-attachment: fixed;
 }
 
-
-/* the contact link */
-.contact {
-    padding-right: 100px;
+/* footer */
+footer {
+    text-align: center;
 }
 
+/* modifications for specific sizings */
 @media screen and (min-width: 992px) {
     .box {
         display: flex;
@@ -111,8 +122,4 @@ h2 {
         padding-right: 0;        
 
     }
-}
-
-footer {
-    text-align: center;
 }
