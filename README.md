@@ -19,3 +19,10 @@ Has a form to send a message to me. Currently it is not working but has all the 
 
 ## Portfolio page
 Has multiple buttons but only the Rock Paper Scissors one is working.
+
+## Author
+
+Jason Tilley
+
+## License:
+*MIT* © 2020 Jason Tilley
