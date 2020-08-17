@@ -26,17 +26,17 @@ $(".submit").click(e => {
     const msgSubject = `Portfolio msg from ${name}`
     console.log('msgSubject: ', msgSubject);
 
-    $.ajax({
-        type: "POST",
-        url: "/services/Mail.asmx/SendMail",
-        cache: false,
-        contentType: "application/json; charset=utf-8",
-        data: "{ 'body':'"  + message + "'," +
-            "'to': '" + msgTo + "'," +
-            "'from': '" + email + "'," +
-            "'subject': " + msgSubject + "'" +
-            "}",
-        dataType: "json",
-        complete: function (transport) { if (transport.status == 200) $("#formcontainer").html("Success"); else alert("Please try again later"); }
-    });
+    // $.ajax({
+    //     type: "POST",
+    //     url: "/services/Mail.asmx/SendMail",
+    //     cache: false,
+    //     contentType: "application/json; charset=utf-8",
+    //     data: "{ 'body':'"  + message + "'," +
+    //         "'to': '" + msgTo + "'," +
+    //         "'from': '" + email + "'," +
+    //         "'subject': " + msgSubject + "'" +
+    //         "}",
+    //     dataType: "json",
+    //     complete: function (transport) { if (transport.status == 200) $("#formcontainer").html("Success"); else alert("Please try again later"); }
+    // });
 })
