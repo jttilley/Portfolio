@@ -9,6 +9,11 @@
     border-color: #1da58c;
 }
 
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
 /* modifications for specific sizings */
 @media screen and (max-width: 701px) {
     .contact-form {
